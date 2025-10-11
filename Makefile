@@ -1,4 +1,4 @@
 .PHONY: install
 
 install:
-	ln -sf $(PWD)/.zshrc $(HOME)/.zshrc
+	ln -sf $(PWD)/.bashrc $(HOME)/.bashrc
