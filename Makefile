@@ -20,11 +20,11 @@ git:
 	git config --global user.email "$(GIT_USER_NAME)@users.noreply.github.com"
 	git config --global core.editor "nvim"
 	git config --global core.pager "nvim -R"
-	git clone git@github.com:yunaimatsu/yunaimatsu.git --depth 1 /sdcard/yunaimatsu
-	git clone git@github.com:yunaimatsu/yunaimatsu.github.io.git --depth 1 /sdcard/yunaimatsu.github.io
+	git clone --depth 1 git@github.com:yunaimatsu/yunaimatsu.git /sdcard/yunaimatsu
+	git clone --depth 1 git@github.com:yunaimatsu/yunaimatsu.github.io.git --depth 1 /sdcard/yunaimatsu.github.io
 	git clone git@github.com:yunaimatsu/dotfiles.git /sdcard/dotfiles
-	git clone git@github.com:yunaimatsu/memoria.git /sdcard/memoria
-	git clone git@github.com:yunaimatsu/documenta.git /sdcard/documenta
+	git clone --depth 1 git@github.com:yunaimatsu/memoria.git /sdcard/memoria
+	git clone --depth 1 git@github.com:yunaimatsu/documenta.git /sdcard/documenta
 	git clone git@github.com:yunaimatsu/munera.git /sdcard/munera
 	git clone git@github.com:yunaimatsu/inventarium.git /sdcard/inventarium
 	git clone git@github.com:yunaimatsu/fora.git /sdcard/fora
