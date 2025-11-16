@@ -21,7 +21,7 @@ git:
 	git config --global core.editor "nvim"
 	git config --global core.pager "nvim -R"
 	git clone --depth 1 git@github.com:yunaimatsu/yunaimatsu.git /sdcard/yunaimatsu
-	git clone --depth 1 git@github.com:yunaimatsu/yunaimatsu.github.io.git --depth 1 /sdcard/yunaimatsu.github.io
+	git clone --depth 1 git@github.com:yunaimatsu/yunaimatsu.github.io.git /sdcard/yunaimatsu.github.io
 	git clone git@github.com:yunaimatsu/dotfiles.git /sdcard/dotfiles
 	git clone --depth 1 git@github.com:yunaimatsu/memoria.git /sdcard/memoria
 	git clone --depth 1 git@github.com:yunaimatsu/documenta.git /sdcard/documenta
