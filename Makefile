@@ -27,6 +27,6 @@ git:
 	git clone git@github.com:yunaimatsu/documenta.git /sdcard/documenta
 	git clone git@github.com:yunaimatsu/munera.git /sdcard/munera
 	git clone git@github.com:yunaimatsu/inventarium.git /sdcard/inventarium
-	git clone git@github.com:yunaimatsu/fora.git /sdcard//fora
+	git clone git@github.com:yunaimatsu/fora.git /sdcard/fora
 
 
