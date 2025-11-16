@@ -2,5 +2,5 @@
 Mobile environment
 
 ```sh
-pkg install && git clone http://github.com/yunaimatsu/castra.git && cd castra && make install
+pkg install -y git && git clone git@github.com:yunaimatsu/castra.git && cd castra && make install
 ```
